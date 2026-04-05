@@ -179,7 +179,7 @@ osint-tool/
 ### Step 1 — Clone
 
 ```bash
-git clone https://github.com/Kodjocares/osint-tool.git
+git clone https://github.com/Kodjocares/osint.git
 cd osint-tool
 ```
 
