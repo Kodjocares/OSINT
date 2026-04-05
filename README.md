@@ -180,7 +180,7 @@ osint-tool/
 
 ```bash
 git clone https://github.com/Kodjocares/osint.git
-cd osint-tool
+cd osint
 ```
 
 ### Step 2 — Virtual environment
