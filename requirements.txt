@@ -1,0 +1,70 @@
+# ─────────────────────────────────────────────
+# OSINT Tool — Runtime Dependencies
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# HTTP & web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+lxml>=5.1.0
+fake-useragent>=1.4.0
+
+# Terminal UI
+rich>=13.7.0
+colorama>=0.4.6
+tqdm>=4.66.1
+
+# DNS & network
+dnspython>=2.4.2
+python-whois>=0.9.4
+
+# Metadata extraction
+Pillow>=10.2.0
+exifread>=3.0.0
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+
+# Phone numbers
+phonenumbers>=8.13.27
+
+# Data & reporting
+matplotlib>=3.8.2
+plotly>=5.18.0
+pandas>=2.2.0
+fpdf2>=2.7.9
+jinja2>=3.1.3
+
+# Geolocation & mapping
+geopy>=2.4.1
+folium>=0.15.1
+
+# Scheduling & monitoring
+schedule>=1.2.1
+
+# Anonymity & proxy
+pysocks>=1.7.1
+stem>=1.8.2
+
+# Config
+python-dotenv>=1.0.1
+
+# Search
+googlesearch-python>=1.2.3
+
+# Shodan
+shodan>=1.31.0
+
+# Graph visualization (new)
+pyvis>=0.3.2
+networkx>=3.2.1
+
+# Misc
+pyshorteners>=1.0.1
+-e 
+# Web GUI
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── v3.0 new module dependencies ──────────────
+pefile>=2023.2.7        # PE binary analysis (malware_analysis)
+yara-python>=4.3.1      # YARA rule matching (optional)

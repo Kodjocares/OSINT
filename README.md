@@ -179,8 +179,8 @@ osint-tool/
 ### Step 1 — Clone
 
 ```bash
-git clone https://github.com/Kodjocares/osint.git
-cd osint
+git clone https://github.com/YOUR_USERNAME/osint-tool.git
+cd osint-tool
 ```
 
 ### Step 2 — Virtual environment
